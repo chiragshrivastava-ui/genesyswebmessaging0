@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davies – About Us</title>
+
+    <!-- YOUR EXACT GENESYS SNIPPET -->
+    <script type="text/javascript" charset="utf-8">
+      (function (g, e, n, es, ys) {
+        g['_genesysJs'] = e;
+        g[e] = g[e] || function () {
+          (g[e].q = g[e].q || []).push(arguments)
+        };
+        g[e].t = 1 * new Date();
+        g[e].c = es;
+        ys = document.createElement('script'); 
+        ys.async = 1; 
+        ys.src = n; 
+        ys.charset = 'utf-8'; 
+        document.head.appendChild(ys);
+      })(window, 'Genesys', 'https://apps.euw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
+        environment: 'prod-euw2',
+        deploymentId: '880916dd-c2cc-47ed-91c4-ee51ab83f1b7'
+      });
+    </script>
+
+    <!-- PAGE STYLE -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f2f2;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background: #024c5a;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+        .nav-logo {
+            height: 32px;
+            margin-right: 25px;
+        }
+
+        .nav-links span {
+            margin-right: 25px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .region {
+            margin-left: auto;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* MAIN LAYOUT */
+        .container {
+            display: flex;
+            padding: 40px;
+            gap: 40px;
+        }
+
+        /* CORRECT ABOUT US BOX (EXACT MATCH) */
+        .about-box {
+            background: #ffffff;
+            border-radius: 4px;
+            padding: 40px;
+            flex: 3;
+            border-left: 6px solid #d85c61; /* red bar */
+        }
+
+        .about-box h2 {
+            margin-top: 0;
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .about-box p {
+            margin-bottom: 18px;
+            line-height: 1.55;
+            font-size: 16px;
+            color: #444;
+        }
+
+        /* RIGHT SIDEBAR */
+        .sidebar {
+            flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background: #024c5a;
+            color: white;
+            border-radius: 6px;
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+        }
+
+        .card h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .card-icon {
+            height: 60px;
+            width: 60px;
+            background: #d85c61;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <img src="Davies.png" class="nav-logo" />
+        <div class="nav-links">
+            <span>Solutions</span>
+            <span>About</span>
+            <span>Media Hub</span>
+            <span>Careers</span>
+            <span>Contact</span>
+        </div>
+        <div class="region">UK & Europe</div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+
+        <!-- LEFT CONTENT: ABOUT US -->
+        <div class="about-box">
+            <h2>About Us</h2>
+
+            <p>We are a specialist professional services and technology firm, working in partnership with leading insurance, highly regulated and global businesses.</p>
+
+            <p>We help our clients to manage risk, operate their core business processes, transform and grow. We deliver specialist professional services and technology solutions across the risk and insurance value chain, including excellence in claims, underwriting, distribution, regulation & risk, forensic accounting, customer experience, human capital, digital transformation & change management.</p>
+
+            <p>Our global team of more than 8,500 professionals operate across 20+ countries, with large operational centres in the UK & U.S. Over the past ten years Davies has grown its annual revenues more than 25‑fold, invested heavily in research & development, innovation & artificial intelligence (“AI”), platform integration & underlying business systems, colleague development, and client service. Today the group serves more than 1,700 insurance, financial services, public sector, and other highly regulated clients.</p>
+        </div>
+
+        <!-- RIGHT SIDEBAR -->
+        <div class="sidebar">
+            <div class="card">
+                <h3>Careers</h3>
+                <div class="card-icon"></div>
+            </div>
+
+            <div class="card">
+                <h3>Our Team</h3>
+                <div class="card-icon"></div>
+            </div>
+
+            <div class="card">
+                <h3>Locations</h3>
+                <div class="card-icon"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
